@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+saved_model/
+logs/
+checkpoint/
+
+# Data files (if large, otherwise keep small sample dataset)
+*.csv
+*.npz
+*.npy
+*.zip
+
+# System / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Cache
+*.log
+*.tmp
+.cache/
